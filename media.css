@@ -1,0 +1,117 @@
+@media (max-width: 1290px){
+    .header__link{
+        display: none;
+    }
+    .form__login{
+        font-weight: 700;
+        font-size: 18px;
+        width: 175px;
+        line-height: 22px;
+        color: #545BE8;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        align-items: center;
+        /* padding-left: 24px; */
+        /* padding-right: 58px; */
+        border: 1px solid #545BE8;
+        box-sizing: border-box;
+        border-radius: 10px;
+        list-style: none;
+        text-decoration: none;
+        /* transition: 0.5s ease-in-out; */
+        display: flex;
+        justify-content: center;
+    }
+    .section1__image{
+        height: 50% !important;
+    }
+}
+@media (max-width: 576px){
+    .form__Register{
+        display: none;
+    }
+}
+@media (max-width: 412px){
+    .content__div3{
+        flex-direction: column;
+    }
+    .section__div5{
+        display: none;
+    }
+    .section1__text4{
+        font-size: unset;
+    }
+    .section1__div2{
+        row-gap: 5px;
+    }
+    .main__section1{
+        min-height: 500px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1290px){
+    .section__text4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section__text2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: unset;
+    }
+    .section__text5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: unset;
+        font-size: 14px;
+    }
+}
+@media (max-width: 1024px){
+    .section__div6{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+    }
+    
+}
+@media (max-width: 412px){
+    .Available__div{
+        width: 100%;
+    }
+    .Available__image3{
+        width: 296px;
+    }
+}
+@media (max-width: 850px){
+    .footer__div1{
+        display: flex;
+        flex-direction: column;
+    }
+    #apple, #twitter, #github, #facebook{
+        margin: 0;
+    }
+    .footer__links{
+        display: flex;
+        column-gap: 20px;
+    }
+    .footer__links1{
+        display: none;
+    }
+    .footer__div4{
+        display: none;
+    }
+    .footer__div5{
+        width: unset !important;
+    }
+    .footer__div6{
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
